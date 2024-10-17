@@ -13,4 +13,4 @@ skim(alzheimer_data)
 
 plot_mmse <- alzheimer_data %>% 
   ggplot(aes(x = mmse)) +
-  geom_density(color = "red")
+  geom_density(color = "blue")
