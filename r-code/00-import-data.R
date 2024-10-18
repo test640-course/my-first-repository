@@ -7,7 +7,7 @@ nrow(alzheimer_data)
 
 # summary table
 
-skim(alzheimer_data, hospital)
+skim(alzheimer_data, starts_with("symptom_"))
 
 # distribution of MMSE score
 
